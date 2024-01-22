@@ -3,7 +3,8 @@ import FirstRequest from "./examples/1-first-request";
 import Headers from "./examples/2-headers";
 import PostRequest from "./examples/3-post-request";
 import GlobalInstance from "./examples/4-global-instance";
-import "./global";
+// import "./global";
+import CustomInstance from "./examples/5-custom-instance";
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       {/* <FirstRequest /> */}
       {/* <Headers /> */}
       {/* <PostRequest /> */}
-      <GlobalInstance />
+      {/* <GlobalInstance /> */}
+      <CustomInstance />
     </main>
   );
 }
