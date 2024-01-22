@@ -1,8 +1,8 @@
-const Title = () => {
+const Title = ({ data }) => {
   return (
-    <div className='title'>
+    <div className="title">
       <h1>
-        <span>axios</span> tutorial
+        <span onClick={data}>axios</span> tutorial
       </h1>
     </div>
   );
